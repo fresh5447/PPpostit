@@ -31,11 +31,17 @@ gem 'jquery-rails'
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 gem 'turbolinks'
 
+#in order to use the attr_accessible model
+gem 'protected_attributes'
+
 # Twitter bootstap gem.
 gem 'bootstrap-sass', '~> 2.3.1.0'
 
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 1.2'
+
+#installing seed data
+gem 'faker'
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.

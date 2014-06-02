@@ -2,4 +2,6 @@
 
 Just a random blog to explore topics, and keep track of things your interested in.
 
+http://pppostit.herokuapp.com/
+
 ##Created by: Doug Walter.
