@@ -1,3 +1,37 @@
-// Place all the styles related to the welcome controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+/* Tag Selector-to apply to all elements
+
+h1 {
+  color: red;
+}
+
+ ID Selector-for specific elements
+use like --> <p id="index-title">
+
+p#index-title {
+  text-align: center;
+  font-size: 15px;
+  color: blue;
+}
+
+ Class Selector-for a group of elements-->
+ <p class="posts">
+
+ .posts {
+  border: solid;
+  margin: 5px;
+  padding: 5px;
+  height: 200px;
+ }
+
+  The box model
+  https://www.bloc.io/users/doug-walter/checkpoints/78
+  
+ section {
+  background: #5998ff;
+  border-style: solid;
+  border-width: 5px;
+  margin: 5px 5px 5px 5px;
+  padding: 5px 5px 5px 5px;
+ }
+
+*/
