@@ -7,4 +7,8 @@ class User < ActiveRecord::Base
   attr_accessible :email, :password, :password_confirmation, :remember_me
 
   has_many :posts
+
+  def role?(base_role)
+    role == base_role.to_s
+  end
 end
