@@ -46,6 +46,9 @@ gem 'jbuilder', '~> 1.2'
 #installing seed data
 gem 'faker'
 
+#protecting sensitive data
+gem 'figaro'
+
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false
