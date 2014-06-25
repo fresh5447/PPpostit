@@ -1,5 +1,6 @@
 Pppostit::Application.routes.draw do
 
+devise_for :users
 resources :posts
 
 match "about" => 'welcome#about', via: :get
